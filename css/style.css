@@ -78,10 +78,6 @@
     height: 550px;
   }
   
-  .hero .hero-content {
-    width: 70%;
-  }
-  
   .hero .hero-text {
     width: 70%;
     margin-bottom: 20px;
@@ -102,24 +98,23 @@
     margin-bottom: 20px;
   }
   
-  /* Testimonials */
-  .testimonials {
+  /* services */
+  .services {
     padding: 40px 0;
   }
   
-  .testimonials .testimonials-heading {
-    width: 700px;
+  .services .services-heading {
     margin-bottom: 40px;
   }
   
-  .testimonials .testimonials-grid {
+  .services .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
   
-  .testimonials .card p:nth-child(2) {
-    margin-top: 30px;
+  .services .card p:nth-child(1) {
+    margin-bottom: 30px;
     font-weight: bold;
   }
   
@@ -459,12 +454,12 @@
       width: 100%;
     }
   
-    .testimonials .testimonials-heading {
+    .services .services-heading {
       max-width: 100%;
       text-align: center;
     }
   
-    .testimonials .testimonials-grid,
+    .services .services-grid,
     .pricing .pricing-grid,
     .footer .footer-grid {
       grid-template-columns: 1fr;
